@@ -1,0 +1,26 @@
+
+table{
+	width: 100%;
+}
+table,th,td{
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+th,td{
+	text-align: left;
+	padding: 20px;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+ background-color: #fff;
+}
+th {
+  background-color: black;
+  color: white;
+}
+caption{
+	font: italic small-caps bold 2em tahoma;
+	color: green;
+}
